@@ -1,0 +1,35 @@
+#fade-in-text {
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#display-about-section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#display-about-section>div
+{
+    margin: 20px;
+}
+
+
+#about-us-image
+{
+    height: 100%;
+    width: 60%;
+}
+/* 
+#right-section
+{
+    margin-left: 20%;
+} */
